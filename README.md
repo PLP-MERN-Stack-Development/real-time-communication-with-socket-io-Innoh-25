@@ -86,9 +86,6 @@ JWT_SECRET=your-jwt-secret-key
 # MongoDB
 MONGODB_URI=mongodb://localhost:27017/chat-app
 
-# Google OAuth
-GOOGLE_CLIENT_ID=your-google-client-id
-GOOGLE_CLIENT_SECRET=your-google-client-secret
 ```
 
 2. **Create `client/.env`:**
@@ -249,14 +246,10 @@ Enable debug logs by setting `NODE_ENV=development` in your environment variable
 - Environment variable protection
 - Message ownership verification
 
-## Contributing
+## 🚀 Deployment Guide
 
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## License
-
-This project is licensed under the MIT License.
-
-## Support
-
-For issues and questions, please open an issue in the GitHub repository.
+### Prerequisites
+- MongoDB Atlas account
+- Render account (for backend)
+- Vercel account (for frontend)
+- GitHub account
