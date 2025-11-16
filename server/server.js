@@ -22,7 +22,7 @@ const app = express();
 const server = http.createServer(app);
 const io = new Server(server, {
   cors: {
-    origin: process.env.CLIENT_URL || 'http://localhost:5173',
+    origin: '*',
     methods: ['GET', 'POST', 'DELETE'],
     credentials: true,
   },
@@ -33,7 +33,7 @@ connectDB();
 
 // Middleware
 app.use(cors({
-  origin: process.env.CLIENT_URL || 'http://localhost:5173',
+  origin:'*',
   credentials: true
 }));
 app.use(express.json());
