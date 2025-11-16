@@ -2,6 +2,11 @@
 
 A full-stack real-time chat application built with React, Node.js, Express, Socket.io, and MongoDB. Features real-time messaging, user authentication, multiple chat rooms, direct messaging, and message reactions.
 
+## Deployment link:
+https://chat-app-beige-beta-54.vercel.app/
+
+
+
 ## Tech Stack
 
 ### Frontend
